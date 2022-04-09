@@ -53,10 +53,12 @@ img {
 
 body {
   background: url("images/back7.jpg");
+  
 }
 
 main {
   padding: 20px;
+  
 }
 
 .heading-s {
@@ -100,7 +102,7 @@ nav {
 
 nav.topnav {
   overflow: hidden;
-  background: url("images/back7.jpg");
+  
 }
 
 nav .links {

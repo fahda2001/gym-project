@@ -121,16 +121,16 @@
       
       
       <nav class="topnav">
-        
-      <img
+        <img
       class="logo"
       src="images/logo3.png"
       alt="restaurants logo"
     />
+      
         <div class="links">
-          <a href="index.html">HOME</a>
-          <a href="menu.html">About-US</a>
-          <a href="menu.html">Contact-Us</a>
+          <a href="find.html">HOME</a>
+          <a href="#about">About-US</a>
+          <a href="#footer">Contact-Us</a>
         </div>
         <form class="search-form">
           <input type="text" placeholder="Search.." />
@@ -150,6 +150,10 @@
       <div class="mySlides fade">
         <div class="numbertext">2 / 3</div>
         <img src="images/image12.jpg" style="width:100%">
+      </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="images/image20.jpg" style="width:100%">
         
       </div>
       
@@ -157,13 +161,15 @@
       
       <a class="prev" onclick="plusSlides(-1)">❮</a>
       <a class="next" onclick="plusSlides(1)">❯</a>
+      <a class="next" onclick="plusSlides(2)">❯</a>
       
       </div>
       <br>
       
       <div style="text-align:center">
         <span class="dot" onclick="currentSlide(1)"></span> 
-        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
         
       </div>
       
@@ -282,6 +288,7 @@
         </div>
       </section>
 <br> <br> <br>
+<div id="about">
       <div class="container">
         
         <div class="left">
@@ -291,13 +298,13 @@
           <h2 class="about">About Us</h2>
           <p>we are</p>
         <h1> DO IT review-site</h1>
-        <p>we provide gyms with options that depend on the user needs. Furthermore, the 
-          user has the ability to subscribe immediately to whatever suits them best.</p>
+        <p>we provide gyms with options that depend on your needs. 
+          we will save your valuable time and help you find better options. .</p>
         
         </div>
       </div>
     
-    
+    </div>
           
     </main>
 
@@ -306,7 +313,7 @@
     
     <footer>
       <section class="footer">
-        <div>
+        <div id="footer">
           <a href="https://www.twitter.com/">
             <img src="images/twitter.jpeg" alt="twitter" />
           </a>
