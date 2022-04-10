@@ -121,7 +121,8 @@
       
       
       <nav class="topnav">
-        <a href="find.html"> <i class="fa fa-sign-out" style="font-size:24px;float:right;position: relative;"></i></a>
+         <i class="fa fa-sign-out" style="font-size:24px;float:right; " onclick="window.location.href='find.html'"></i>
+
 
         <img
       class="logo"
@@ -215,8 +216,17 @@
         <hr> 
         
         <!-- Portfolio Gallery Grid -->
+        <script>
+          function deleteGym(str) {
+            x=document.getElementById(str);
+           flag = confirm('Are you sure you want to delete the '+str+"??");
+           if(flag)
+            x.style.display="none";
+          }
+        </script>
         <div class="row">
           <div class="column north">
+            <div id="FitnessTime">
             <div class="content">
               <img src="images/FitnessTime.png" alt="Mountains" style="width:100%">
               <hr>
@@ -231,10 +241,11 @@
             <p class="table-loc">LOCATION: center</p><br>
             
             <button class="BOOK">view details</button>
-                <i class="fa fa-trash-o" style="font-size:36px;float: right;"></i>
-            <i class="fa fa-edit" style="font-size:36px;float: right;"></i>  
+                <i class="fa fa-trash-o" style="font-size:36px;float: right; "  onclick="deleteGym('FitnessTime')"></i>
+            <i class="fa fa-edit" style="font-size:36px;float: right;  " onclick="window.location.href='find.html'"></i>  
             </div>
-          
+</div>
+          <div id="divaFitness">
             <div class="content">
             <img src="images/diva.png" alt="Lights" style="width:100%"> <hr>
             <p class="table-name"> Diva</p>
@@ -247,10 +258,11 @@
             <p class="table-loc">LOCATION: AL-yasmeen</p><br>
             
             <button class="BOOK">view details</button>
-            <i class="fa fa-trash-o" style="font-size:36px;float: right;"></i>
-            <i class="fa fa-edit" style="font-size:36px;float: right;"></i> 
-            </div>
-         
+            <i class="fa fa-trash-o" style="font-size:36px;float: right;   " onclick="deleteGym('divaFitness')"></i>
+            <i class="fa fa-edit" style="font-size:36px;float: right;" onclick="window.location.href='DivaAdmin.html'"></i> 
+            </div></div>
+
+         <div id="9round">
             <div class="content">
             <img src="images/9round.png" alt="Nature" style="width:100%"><hr>
             <p class="table-name"> 9Round</p>
@@ -263,12 +275,13 @@
             
             <p class="table-loc">LOCATION: Right, next to the restroom</p><br>
             <button class="BOOK">view details</button>
-            <i class="fa fa-trash-o" style="font-size:36px;float: right;"></i>
-            <i class="fa fa-edit" style="font-size:36px;float: right;"></i> 
+            <i class="fa fa-trash-o" style="font-size:36px;float: right; " onclick="deleteGym('9round')"></i>
+            <i class="fa fa-edit" style="font-size:36px;float: right; "onclick="window.location.href='find.html'"></i> 
             </div>
           </div>
-          
+          </div>
           <div class="column West">
+            <div id="FitForever">
             <div class="content">
               <img src="images/fitfor.png" alt="Car" style="width:100%"><hr>
               <p class="table-name">Fit forever</p>
@@ -281,10 +294,12 @@
             <p class="table-loc">LOCATION: AL-rawdah</p><br>
             
             <button class="BOOK">view details</button>
-            <i class="fa fa-trash-o" style="font-size:36px;float: right;"></i>
-            <i class="fa fa-edit" style="font-size:36px;float: right;"></i> 
+            <i class="fa fa-trash-o" style="font-size:36px;float: right;  " onclick="deleteGym('FitForever')"></i>
+            <i class="fa fa-edit" style="font-size:36px;float: right; "onclick="window.location.href='find.html'"></i> 
             </div>
-          
+          </div>
+
+          <div id="Vidafit">
             <div class="content">
             <img src="images/vidafitlogo.png" alt="Car" style="width:100%"><hr>
             <p class="table-name">Vida fit </p>
@@ -297,10 +312,11 @@
             
             <p class="table-loc">LOCATION: Left, next to the wall</p><br>
             <button class="BOOK">view details</button>
-            <i class="fa fa-trash-o" style="font-size:36px;float: right;"></i>
-            <i class="fa fa-edit" style="font-size:36px;float: right;"></i> 
+            <i class="fa fa-trash-o" style="font-size:36px;float: right;" onclick="deleteGym('Vidafit')"></i>
+            <i class="fa fa-edit" style="font-size:36px;float: right;  "onclick="window.location.href='find.html'"></i> 
             </div>
-          
+          </div>
+          <div id="al-Manahil">
             <div class="content">
             <img src="images/almanahil3.png" alt="Car" style="width:100%"><hr>
             <p class="table-name">AL-manahil </p>
@@ -314,9 +330,9 @@
             <p class="table-loc">LOCATION: Diplomatic Square</p>
             <br>
             <button class="BOOK">view details</button>
-            <i class="fa fa-trash-o" style="font-size:36px;float: right;"></i>
-            <i class="fa fa-edit" style="font-size:36px;float: right;"></i> 
-            </div>
+            <i class="fa fa-trash-o" style="font-size:36px;float: right; ;" onclick="deleteGym('al-Manahil')"></i>
+            <i class="fa fa-edit" style="font-size:36px;float: right;  "onclick="window.location.href='manahelAdmin.html'"></i> 
+            </div></div>
           </div>
         
          
