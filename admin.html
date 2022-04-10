@@ -2,6 +2,7 @@
 <html lang="en" class="default-theme">
   <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <style>
       .checked {
   color: orange;
@@ -49,6 +50,7 @@
       .prev:hover, .next:hover {
         background-color: rgba(0,0,0,0.8);
       }
+      
       /* Caption text */
       .text {
         color: #f2f2f2;
@@ -100,40 +102,8 @@
       @media only screen and (max-width: 300px) {
         .prev, .next,.text {font-size: 11px}
       }
-      .fa {
-  padding: 20px;
-  font-size: 25px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-  
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
       </style>
-    <title>Admin</title>
+    <title>DO IT-Admin</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -156,16 +126,14 @@
       src="images/logo3.png"
       alt="restaurants logo"
     />
+    
       
         <div class="links">
           <a href="find.html">HOME</a>
           <a href="#about">About-US</a>
           <a href="#footer">Contact-Us</a>
         </div>
-        <form class="search-form">
-          <input type="text" placeholder="Search.." />
-          <i class="fa fa-search" style="font-size:25px"></i>
-        </form>
+        
       </nav>
     </header>
     
@@ -179,7 +147,7 @@
       
       <div class="mySlides fade">
         <div class="numbertext">2 / 3</div>
-        <img src="images/image12.jpg" style="width:100%">
+        <img src="images/doimg.jpg" style="width:100%">
       </div>
         <div class="mySlides fade">
           <div class="numbertext">3 / 3</div>
@@ -227,84 +195,96 @@
     
 
     <main>
-      <section class="res-pic">
-        <div class="box-container1">
-          <div class="table-picture table-1">
-           
-            <img src="images/FitnessTime.png" alt="2person" />
-            <i class="fa fa-trash-o" style="font-size:36px"></i>
-            <i class="fa fa-edit" style="font-size:36px;float: left;"></i>
-            <p class="table-name">FitnessTime </p>
+      <div class="main">
+
+       
+        
+        
+        <h2 style="color:#6D089D">Search:</h2>
+        <br>
+        <div id="myBtnContainer">
+          
+          <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+          <button class="btn" onclick="filterSelection('north')"> north</button>
+          <button class="btn" onclick="filterSelection('West')"> West</button>
+          <button class="btn" onclick="filterSelection('east')"> east</button>
+          <button class="btn" onclick="filterSelection('south')"> south</button>
+        </div>
+        <hr> 
+        
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+          <div class="column north">
+            <div class="content">
+              <img src="images/FitnessTime.png" alt="Mountains" style="width:100%">
+              <hr>
+              <p class="table-name">FitnessTime </p>
+          
             <h2> Rating:</h2>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star"></span>
 <span class="fa fa-star"></span>
-            <p class="table-loc">LOCATION: center</p><br><br>
+            <p class="table-loc">LOCATION: center</p><br>
+            
             <button class="BOOK">view details</button>
+                <i class="fa fa-trash-o" style="font-size:36px;float: right;"></i>
+            <i class="fa fa-edit" style="font-size:36px;float: right;"></i>  
+            </div>
+          
+            <div class="content">
+            <img src="images/diva.png" alt="Lights" style="width:100%"> <hr>
+            <p class="table-name"> Diva</p>
+            <h2> Rating:</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+            <p class="table-loc">LOCATION: AL-yasmeen</p><br>
+            
+            <button class="BOOK">view details</button>
+            <i class="fa fa-trash-o" style="font-size:36px;float: right;"></i>
+            <i class="fa fa-edit" style="font-size:36px;float: right;"></i> 
+            </div>
+         
+            <div class="content">
+            <img src="images/9round.png" alt="Nature" style="width:100%"><hr>
+            <p class="table-name"> 9Round</p>
+            <h2> Rating:</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+            
+            <p class="table-loc">LOCATION: Right, next to the restroom</p><br>
+            <button class="BOOK">view details</button>
+            <i class="fa fa-trash-o" style="font-size:36px;float: right;"></i>
+            <i class="fa fa-edit" style="font-size:36px;float: right;"></i> 
+            </div>
           </div>
-<!--diva fitness-->
-          <div class="table-picture table-2">
-
-            <img src="images/diva.png" alt="4person" />
-            <i class="fa fa-trash-o" style="font-size:36px"></i>
-
-            <i class="fa fa-edit" style="font-size:36px;float: left;"></i>
-            
-                      <p class="table-name"> Diva</p>
+          
+          <div class="column West">
+            <div class="content">
+              <img src="images/fitfor.png" alt="Car" style="width:100%"><hr>
+              <p class="table-name">Fit forever</p>
             <h2> Rating:</h2>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star"></span>
 <span class="fa fa-star"></span>
-            <p class="table-loc">LOCATION: center</p><br><br>
-            <button class="BOOK">view details</button>
-          </div>
-<!--9Round-->
-          <div class="table-picture table-3">
-            <img src="images/9round.png" alt="8person" />
-            <i class="fa fa-trash-o" style="font-size:36px"></i>
-
-            <i class="fa fa-edit" style="font-size:36px;float: left;"></i>            <p class="table-name"> 9Round</p>
-            <h2> Rating:</h2>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
+            <p class="table-loc">LOCATION: AL-rawdah</p><br>
             
-            <p class="table-loc">LOCATION: Right, next to the restroom</p><br><br>
             <button class="BOOK">view details</button>
-
-
-          </div>
-<!--manahel-->
-          <div class="table-picture table-4">
-            <img src="images/manahil.jpg" alt="5person" />
-            <i class="fa fa-trash-o" style="font-size:36px"></i>
-
-            <i class="fa fa-edit" style="font-size:36px;float: left;"></i>
-            <p class="table-name">AL-manahil </p>
-            <h2> Rating:</h2>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
-            
-            <p class="table-loc">LOCATION: Right, next to the kitchen</p><br><br>
-            <button class="BOOK">view details</button>
-    
-              </div>
-<!--vidafit-->
-          <div class="table-picture table-5">
-            
-            <img src="images/vidafitlogo.png" alt="6person" />
-            <i class="fa fa-trash-o" style="font-size:36px"></i>
-
-            <i class="fa fa-edit" style="font-size:36px;float: left;"></i>
+            <i class="fa fa-trash-o" style="font-size:36px;float: right;"></i>
+            <i class="fa fa-edit" style="font-size:36px;float: right;"></i> 
+            </div>
+          
+            <div class="content">
+            <img src="images/vidafitlogo.png" alt="Car" style="width:100%"><hr>
             <p class="table-name">Vida fit </p>
             <h2> Rating:</h2>
 <span class="fa fa-star checked"></span>
@@ -313,29 +293,82 @@
 <span class="fa fa-star"></span>
 <span class="fa fa-star"></span>
             
-            <p class="table-loc">LOCATION: Left, next to the wall</p><br><br>
+            <p class="table-loc">LOCATION: Left, next to the wall</p><br>
             <button class="BOOK">view details</button>
-        
-          </div>
-<!--fitdorever-->
-          <div class="table-picture table-6">
-            <img src="images/fitfor.png" alt="6person" />
-            <i class="fa fa-trash-o" style="font-size:36px"></i>
-
-            <i class="fa fa-edit" style="font-size:36px;float: left;"></i>
-            <p class="table-name">Fit forever</p>
+            <i class="fa fa-trash-o" style="font-size:36px;float: right;"></i>
+            <i class="fa fa-edit" style="font-size:36px;float: right;"></i> 
+            </div>
+          
+            <div class="content">
+            <img src="images/almanahil3.png" alt="Car" style="width:100%"><hr>
+            <p class="table-name">AL-manahil </p>
             <h2> Rating:</h2>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star"></span>
 <span class="fa fa-star"></span>
-            <p class="table-loc">LOCATION: Left, next to the window</p><br><br>
+            
+            <p class="table-loc">LOCATION: Diplomatic Square</p>
+            <br>
             <button class="BOOK">view details</button>
-    
+            <i class="fa fa-trash-o" style="font-size:36px;float: right;"></i>
+            <i class="fa fa-edit" style="font-size:36px;float: right;"></i> 
             </div>
+          </div>
+        
+         
+        <!-- END GRID -->
         </div>
-      </section>
+        
+        <!-- END MAIN -->
+        </div>
+ 
+        <script>
+          filterSelection("all")
+          function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("column");
+            if (c == "all") c = "";
+            for (i = 0; i < x.length; i++) {
+              w3RemoveClass(x[i], "show");
+              if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+            }
+          }
+          
+          function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+              if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+            }
+          }
+          
+          function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+              while (arr1.indexOf(arr2[i]) > -1) {
+                arr1.splice(arr1.indexOf(arr2[i]), 1);     
+              }
+            }
+            element.className = arr1.join(" ");
+          }
+          
+          
+          // Add active class to the current button (highlight it)
+          var btnContainer = document.getElementById("myBtnContainer");
+          var btns = btnContainer.getElementsByClassName("btn");
+          for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function(){
+              var current = document.getElementsByClassName("active");
+              current[0].className = current[0].className.replace(" active", "");
+              this.className += " active";
+            });
+          }
+          </script>
 <br> <br> <br>
 <div id="about">
       <div class="container">
@@ -353,7 +386,9 @@
         </div>
       </div>
     
-    </div>
+    
+          
+    </main>
           
     </main>
 
@@ -363,11 +398,15 @@
     <footer>
       <section class="footer">
         <div id="footer">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-google"></a>
-            <a href="#" class="fa fa-linkedin"></a>
-
+          <a href="https://www.twitter.com/">
+            <img src="images/twitter.jpeg" alt="twitter" />
+          </a>
+          <a href="https://www.gmail.com/">
+            <img alt="e-mail" src="images/email.jpeg" />
+          </a>
+          <a href="https://www.Facebook.com/">
+            <img alt="facebook" src="images/facebook.jpg" />
+          </a>
         </div>
       </section>
     </footer>
