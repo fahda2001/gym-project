@@ -1,14 +1,13 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>9Round </title>
+    <title>Finess website</title>
     <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-    
     <!--for replay icon-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -54,7 +53,6 @@
         });</script>
 
     <style>
-
 
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
 
@@ -468,7 +466,7 @@
         
           
             <div class="links">
-              <a href="home.html">HOME</a>
+              <a href="admin.html">HOME</a>
               
               <a href="#footer">Contact-Us</a>
             </div>
@@ -483,21 +481,25 @@
         <div class="main-home">
             <div class="inner-home">
                 <div class="home-content">
+                    <i class="fa fa-trash-o" style="font-size:36px; float: right;"></i>
+                    <i class="fa fa-edit" style="font-size:36px;float: right;"></i>
                     <h2>overview</h2>
                     <h2>build your body &</h2>
                     <h1>shape <span>yourself</span> </h1>
                     <p>
-                        At typical gyms, your workout relies on a class time or your trainer’s schedule. We think it's about time that changed. We provide members with fun,
-                        trainer-guided, kickboxing-style workouts in a circuit format. That means our workouts begin whenever you show up.
-                        Because it’s all about YOU. Getting stronger. On YOUR time.
-                        </br> call us: 9200 19910
+                        Vidafit is an exclusive female fitness Center expanding throughout the kingdom. Vidafit provides its members with an array of healthy fitness with a safe environment at competitive prices. Vidafit takes pride in giving all its members an opportunity to achieve their individual goals, from general to a high-level competitive fitness.
+
+                        <br />
+                        Vidafit’s objective is to give the community access to a club where all its members can avail the best in class equipment facilities which are unique in their own sphere. Members at Vidafit can achieve their fitness aspirations with fun and determination.
+
+                        </br> call us: 011 834 3007
                     </p>
-                    <a href="https://sa.9round.com">subscribe</a>
+                    <a href="https://vidafit.com.au">subscribe</a>
                 </div>
 
             </div>
             <div class="inner-home">
-                <img src="images/9round.png" alt="">
+                <img src="images/vidafitlogo.png" alt="">
             </div>
         </div>
     </div>
@@ -561,11 +563,11 @@
                 <div class="top-story-content">
                     <h2>address</h2>
                     <p>
-                        3760 Imam Abdullah Ibn Saud Ibn Abdulaziz Rd, Al Yarmuk, 6500, Riyadh 13243
+                        King Abdul Aziz Rd, As Sahafah, Riyadh 13321
                     </p>
                 </div>
 
-                <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=9round&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org"></a><br>
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Vidafit%20%7C%20Alwan%20Center&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org"></a><br>
                 <style>
                     .mapouter {
                         position: relative;
@@ -755,7 +757,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>the gym is clean and good</p>
+                <p>best staff nice service</p>
                 <a href="#add-reviews"> <i style="font-size:24px" class="fa">&#xf112;</i></a>
 
             </div>
@@ -769,7 +771,8 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>classes are fun and amazing</p>
+                <p>swimming classes are the best also the gym is clean and good</p>
+
                 <a href="#add-reviews"> <i style="font-size:24px" class="fa">&#xf112;</i></a>
             </div>
 
@@ -783,7 +786,7 @@
                     <i class="fas fa-star"></i>
 
                 </div>
-                <p>professional trainers</p>
+                <p>professional</p>
                 <a href="#add-reviews"> <i style="font-size:24px" class="fa">&#xf112;</i></a>
 
             </div>

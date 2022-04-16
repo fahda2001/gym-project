@@ -1,14 +1,12 @@
 ﻿<!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>9Round </title>
+    <title>Finess website</title>
     <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-    
     <!--for replay icon-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -469,7 +467,7 @@
           
             <div class="links">
               <a href="home.html">HOME</a>
-              
+             
               <a href="#footer">Contact-Us</a>
             </div>
             
@@ -487,17 +485,18 @@
                     <h2>build your body &</h2>
                     <h1>shape <span>yourself</span> </h1>
                     <p>
-                        At typical gyms, your workout relies on a class time or your trainer’s schedule. We think it's about time that changed. We provide members with fun,
-                        trainer-guided, kickboxing-style workouts in a circuit format. That means our workouts begin whenever you show up.
-                        Because it’s all about YOU. Getting stronger. On YOUR time.
-                        </br> call us: 9200 19910
+                        Al Manahil Entertainment Co. is one of the leading company in Beauty, Fitness and Sports sectors in Riyadh. Our aim is to offer best services to all women located at one place.
+                        <br />
+                        Al Manahil Entertainment Co. is a NON-PROFIT company outlined with its distinct support of Princess Madawi Fund for Women Entrepreneurship Development "Deem Al Manahil".
+
+                        </br> call us: 011 488 1069
                     </p>
-                    <a href="https://sa.9round.com">subscribe</a>
+                    <a href="https://www.almanahil.com.sa">subscribe</a>
                 </div>
 
             </div>
             <div class="inner-home">
-                <img src="images/9round.png" alt="">
+                <img src="images/manahil.jpg" alt="">
             </div>
         </div>
     </div>
@@ -561,11 +560,10 @@
                 <div class="top-story-content">
                     <h2>address</h2>
                     <p>
-                        3760 Imam Abdullah Ibn Saud Ibn Abdulaziz Rd, Al Yarmuk, 6500, Riyadh 13243
-                    </p>
-                </div>
+                        Ibn Zahr Street، Al Safarat، Diplomatic Square، Riyadh
+                    </p>                </div>
 
-                <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=9round&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org"></a><br>
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=%D9%85%D8%B1%D9%83%D8%B2%20%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%87%D9%84&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/divi-discount/">divi discount</a><br>
                 <style>
                     .mapouter {
                         position: relative;
@@ -573,7 +571,7 @@
                         height: 500px;
                         width: 600px;
                     }
-                </style><a href="https://www.embedgooglemap.net">google maps on website</a>
+                </style><a href="https://www.embedgooglemap.net">google maps iframe embed</a>
                 <style>
                     .gmap_canvas {
                         overflow: hidden;
@@ -755,7 +753,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>the gym is clean and good</p>
+                <p>boxing classes are the best also the gym is clean and good</p>
                 <a href="#add-reviews"> <i style="font-size:24px" class="fa">&#xf112;</i></a>
 
             </div>
@@ -769,7 +767,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>classes are fun and amazing</p>
+                <p>classes are fun</p>
                 <a href="#add-reviews"> <i style="font-size:24px" class="fa">&#xf112;</i></a>
             </div>
 
@@ -783,7 +781,7 @@
                     <i class="fas fa-star"></i>
 
                 </div>
-                <p>professional trainers</p>
+                <p>professional</p>
                 <a href="#add-reviews"> <i style="font-size:24px" class="fa">&#xf112;</i></a>
 
             </div>
@@ -859,7 +857,10 @@
 
             }
         });</script>
+<<<<<<< HEAD
 
+
+=======
 <style>
     footer{
   bottom: 0;
@@ -966,6 +967,6 @@
     </div>
  
 </footer>
+>>>>>>> 7b9fc825eb3bb4205bf4b33c15aab12e46d7895f
 </body>
-</html>
-
+</ht

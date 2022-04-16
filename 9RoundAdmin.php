@@ -1,14 +1,13 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>9Round </title>
+    <title>Finess website</title>
     <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-    
     <!--for replay icon-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -54,7 +53,6 @@
         });</script>
 
     <style>
-
 
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
 
@@ -468,7 +466,7 @@
         
           
             <div class="links">
-              <a href="home.html">HOME</a>
+              <a href="admin.html">HOME</a>
               
               <a href="#footer">Contact-Us</a>
             </div>
@@ -483,6 +481,8 @@
         <div class="main-home">
             <div class="inner-home">
                 <div class="home-content">
+                    <i class="fa fa-trash-o" style="font-size:36px; float: right;"></i>
+                    <i class="fa fa-edit" style="font-size:36px;float: right;"></i>
                     <h2>overview</h2>
                     <h2>build your body &</h2>
                     <h1>shape <span>yourself</span> </h1>
@@ -789,25 +789,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

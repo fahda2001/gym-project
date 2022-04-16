@@ -1,14 +1,12 @@
-﻿<!DOCTYPE html>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>9Round </title>
+    <title>Diva-Edit</title>
     <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-    
     <!--for replay icon-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -54,7 +52,6 @@
         });</script>
 
     <style>
-
 
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
 
@@ -468,7 +465,7 @@
         
           
             <div class="links">
-              <a href="home.html">HOME</a>
+              <a href="admin.html">HOME</a>
               
               <a href="#footer">Contact-Us</a>
             </div>
@@ -483,21 +480,18 @@
         <div class="main-home">
             <div class="inner-home">
                 <div class="home-content">
+                    <i class="fa fa-trash-o" style="font-size:36px; float: right;"></i>
+                    <i class="fa fa-edit" style="font-size:36px;float: right;"></i>
                     <h2>overview</h2>
                     <h2>build your body &</h2>
                     <h1>shape <span>yourself</span> </h1>
-                    <p>
-                        At typical gyms, your workout relies on a class time or your trainer’s schedule. We think it's about time that changed. We provide members with fun,
-                        trainer-guided, kickboxing-style workouts in a circuit format. That means our workouts begin whenever you show up.
-                        Because it’s all about YOU. Getting stronger. On YOUR time.
-                        </br> call us: 9200 19910
-                    </p>
-                    <a href="https://sa.9round.com">subscribe</a>
+                    <p>professional laides gym in riyadh </br> call us: 0554960222</p>
+                    <a href="https://www.diva.sa">subscribe</a>
                 </div>
 
             </div>
             <div class="inner-home">
-                <img src="images/9round.png" alt="">
+                <img src="images/diva.png" alt="">
             </div>
         </div>
     </div>
@@ -560,28 +554,29 @@
             <div class="ourstory-inner">
                 <div class="top-story-content">
                     <h2>address</h2>
-                    <p>
-                        3760 Imam Abdullah Ibn Saud Ibn Abdulaziz Rd, Al Yarmuk, 6500, Riyadh 13243
-                    </p>
-                </div>
+                    <p>King Abdullah Branch Road, Al Mughrizat, Riyadh, Saudi Arabia</p>                </div>
 
-                <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=9round&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org"></a><br>
-                <style>
-                    .mapouter {
-                        position: relative;
-                        text-align: right;
-                        height: 500px;
-                        width: 600px;
-                    }
-                </style><a href="https://www.embedgooglemap.net">google maps on website</a>
-                <style>
-                    .gmap_canvas {
-                        overflow: hidden;
-                        background: none !important;
-                        height: 500px;
-                        width: 600px;
-                    }
-                </style></div></div>
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe width="600" height="500" id="gmap_canvas" src="https://www.google.com/maps?q=Diva+Fitness+AlMughrizat&ftid=0x3e2f0271c8377f71:0x6c8f0f4ef05b2767&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/divi-discount/">divi discount</a><br>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: 500px;
+                                width: 600px;
+                            }
+                        </style><a href="https://www.embedgooglemap.net">google maps iframe embed</a>
+                        <style>
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 500px;
+                                width: 600px;
+                            }
+                        </style>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -661,7 +656,7 @@
             min-height: 20px;
             padding: 40px;
             margin-bottom: 20px;
-            margin-top: 40px;
+            margin-top:40px;
             background-color: #f5f5f5;
             border: 1px solid #e3e3e3;
             border-radius: 4px;
@@ -676,7 +671,6 @@
             flex-wrap: wrap;
             gap: 0;
         }
-
         .col-md-6 {
             flex: 1 1 300px;
         }
@@ -687,59 +681,58 @@
             padding-right: 15px;
             padding-left: 15px;
         }
-
         .btn-success {
             padding: 1.5rem 3rem;
-            background: green;
+            background:green;
             color: white;
             font-size: 1.5rem;
             border-radius: 15px;
         }
-
         .text-primary {
             color: #9345B8;
             font-size: 40px;
             text-align: center;
             margin-bottom: 20px;
         }
+        
+
+
     </style>
 
     <div id="add-reviews">
         <div class="col-md-3"></div>
+        
+            <div class="col-md-6 well">
+                <center><h1 class="text-primary">write your review </h1>
+                    <hr style="border-top:1px dotted #ccc;" />
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Username:</label>
+                            <input type="text" id="user" class="form-control" />
+                        </div>
+                        <div>
+                            <h3>Rate:</h3>
 
-        <div class="col-md-6 well">
-            <center>
-                <h1 class="text-primary">write your review </h1>
-                <hr style="border-top:1px dotted #ccc;" />
-                <div class="col-md-4">
-                    <div class="form-group">
-                        <label>Username:</label>
-                        <input type="text" id="user" class="form-control" />
-                    </div>
-                    <div>
-                        <h3>Rate:</h3>
-
-                        <span id="1" style="font-size:30px; cursor:pointer;" class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)"></span>
-                        <span id="2" style="font-size:30px; cursor:pointer;" class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)"></span>
-                        <span id="3" style="font-size:30px; cursor:pointer;" class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)"></span>
-                        <span id="4" style="font-size:30px; cursor:pointer;" class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)"></span>
-                        <span id="5" style="font-size:30px; cursor:pointer;" class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)"></span>
-                    </div>
-                    <br />
-                    <div class="form-group">
-                        <h3>Review:</h3>
-                        <textarea id="review" class="form-control" style="resize:none; height:120px; width:50%;"></textarea>
-                    </div>
-                    <center><button class="btn-success" onclick="submitRate()">Submit</button></center>
-                </div>
-            </center>
-            <div class="col-md-6">
-                <div id="result"></div>
-            </div>
-        </div>
-        <script src="script.js"></script>
-
+                            <span id="1" style="font-size:30px; cursor:pointer;" class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)"></span>
+                            <span id="2" style="font-size:30px; cursor:pointer;" class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)"></span>
+                            <span id="3" style="font-size:30px; cursor:pointer;" class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)"></span>
+                            <span id="4" style="font-size:30px; cursor:pointer;" class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)"></span>
+                            <span id="5" style="font-size:30px; cursor:pointer;" class="fa fa-star" onmouseover="startRating(this)" startRating="starmark(this)"></span>
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <h3>Review:</h3>
+                            <textarea id="review" class="form-control" style="resize:none; height:120px; width:50%;"></textarea>
+                        </div>
+                        <center><button class="btn-success" onclick="submitRate()">Submit</button></center>
+                    </div></center>
+    <div class="col-md-6">
+        <div id="result"></div>
     </div>
+</div>
+    <script src="script.js"></script>
+
+</div>
     <br>
     <!-- reviews -->
     <div class="customer-review">
@@ -755,10 +748,10 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>the gym is clean and good</p>
+                <p>very clean and good</p>
                 <a href="#add-reviews"> <i style="font-size:24px" class="fa">&#xf112;</i></a>
 
-            </div>
+</div>
 
             <div class="inner-customer">
                 <img src="images/review1.png" alt="">
@@ -769,7 +762,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                 </div>
-                <p>classes are fun and amazing</p>
+                <p>classes are fun</p>
                 <a href="#add-reviews"> <i style="font-size:24px" class="fa">&#xf112;</i></a>
             </div>
 
@@ -783,7 +776,7 @@
                     <i class="fas fa-star"></i>
 
                 </div>
-                <p>professional trainers</p>
+                <p>professional</p>
                 <a href="#add-reviews"> <i style="font-size:24px" class="fa">&#xf112;</i></a>
 
             </div>
@@ -946,7 +939,6 @@
 }
 
 </style>
-
 <footer id="footer">
      
     <div class="footer-content">
@@ -968,4 +960,3 @@
 </footer>
 </body>
 </html>
-
