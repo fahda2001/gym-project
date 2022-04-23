@@ -8,7 +8,7 @@
     <title>9Round </title>
     <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-    
+
     <!--for replay icon-->
 <a href="9RoundAdmin.php"></a>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -466,14 +466,14 @@
           src="images/logo3.png"
           alt="restaurants logo"
         />
-        
-          
+
+
             <div class="links">
               <a href="home.html">HOME</a>
-              
+
               <a href="#footer">Contact-Us</a>
             </div>
-            
+
           </nav>
     </header>
 
@@ -871,7 +871,7 @@
   width: 100vw;
   padding-top: 40px;
   color: #fff;
-  
+
 }
 .footer-content{
   display: flex;
@@ -949,7 +949,7 @@
 </style>
 
 <footer id="footer">
-     
+
     <div class="footer-content">
       <h3>Contact Us</h3>
       <p> Feel free to contact us if you encounter any problems, whether it's a technical malfunction or confusion about the displayed information</p>
@@ -965,8 +965,7 @@
 
    </div>
     </div>
- 
+
 </footer>
 </body>
 </html>
-
