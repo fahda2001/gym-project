@@ -249,7 +249,6 @@
 <span class="fa fa-star"></span>
 <span class="fa fa-star"></span>
             <p class="table-loc">LOCATION: AL-yasmeen</p><br>
-
             <button class="BOOK"onclick="window.location.href='Diva-infoPage.html'">view details</button>
             </div>
          </div>
