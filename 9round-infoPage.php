@@ -487,6 +487,7 @@
                     <h2>overview</h2>
                     <h2>build your body &</h2>
                     <h1>shape <span>yourself</span> </h1>
+                            <!--هنا التغيير مع الصورة وموقع النادي-->
                     <p>
                         At typical gyms, your workout relies on a class time or your trainer’s schedule. We think it's about time that changed. We provide members with fun,
                         trainer-guided, kickboxing-style workouts in a circuit format. That means our workouts begin whenever you show up.
@@ -505,7 +506,7 @@
 
     <div class="our-class">
         <h1>classes</h1>
-
+           <!--هنا -->
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -550,7 +551,7 @@
         </div>
     </div>
 
-    <!-- our stories GOOGLE MAP-->
+    <!-- our stories GOOGLE MAP هنا -->
     <div class="our-story">
         <h1>gym location</h1>
         <div class="ourstory-main">
